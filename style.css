@@ -26,6 +26,18 @@
     color: white;
 }
 
+/* New code regarding photos next to text*/
+.container-fluid{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    border-radius: 50%;
+  }
+
 /* spacing on all sections */
 /* #about, #services, #portfolio, #contact {
     margin-top: 4rem;
