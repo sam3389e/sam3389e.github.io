@@ -27,7 +27,7 @@
 }
 
 /* New code regarding photos next to text*/
-.container-fluid{
+#home{
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -37,7 +37,7 @@
 img {
     border-radius: 50%;
     vertical-align: middle;
-    width:25%;
+    width:500px;
     height:auto;
   }
 
