@@ -35,6 +35,11 @@
     column-gap: 5px;
 }
 
+.outreachPic{
+    width:350px;
+    height:300px;
+}
+
 .profilePic {
     border-radius: 50%;
     vertical-align: middle;
