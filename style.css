@@ -3,11 +3,11 @@
     background-color: black;
 }
 
-.nav-link{
+.nav-item{
     color:#808080;
 }
 
-.nav-link:hover{
+.nav-item:hover{
     color:#5a5a5a;
 }
 /* hero background image */
@@ -75,10 +75,10 @@ img {
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #70ba70;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #70ba70;
 }
 
 /* social media icons styling */
@@ -87,7 +87,7 @@ img {
     cursor: pointer;
 }
 .fa-linkedin:hover{
-    color: #10009e;
+    color: #6153de;
 }
 .fab {
     color: #000000;
