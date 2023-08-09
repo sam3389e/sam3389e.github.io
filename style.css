@@ -3,17 +3,7 @@
     background-color: black;
 }
 
-.nav-link{
-    color:#f30505;
-}
 
-.navbar-light .navbar-nav .nav-link {
-    color: red;
-}
-
-.nav-item:hover{
-    color:#1df30a;
-}
 /* hero background image */
 .bgimage {
     height:100vh;
