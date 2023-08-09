@@ -4,12 +4,11 @@
 }
 
 .nav-link{
-    font-size:280px;
-    color:#808080;
+    color:#f30505;
 }
 
 .nav-item:hover{
-    color:#5a5a5a;
+    color:#1df30a;
 }
 /* hero background image */
 .bgimage {
