@@ -38,6 +38,8 @@
 .outreachPic{
     width:350px;
     height:300px;
+    padding-left:30%;
+    padding-right:30%;
 }
 
 .profilePic {
@@ -53,9 +55,9 @@
     padding-top: 4rem;
 } */
 
-#about{
-    padding-left:30%;
-    padding-right:30%;
+.aboutText{
+    padding-left:20%;
+    padding-right:20%;
 }
 
 #contact {
