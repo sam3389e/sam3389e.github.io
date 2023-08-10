@@ -36,8 +36,7 @@
 }
 
 .outreachPic{
-    width:350px;
-    height:300px;
+    transform: scale(0.5);
 }
 
 .profilePic {
