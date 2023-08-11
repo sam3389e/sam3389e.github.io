@@ -36,9 +36,9 @@
     
 }
 
-#home h1 {
-    font-size: clamp(14px, 5vw, 32px);
-  }
+.bgimage{
+    max-width:100%;
+}
 
 .outreachPic{
     transform: scale(0.75);
