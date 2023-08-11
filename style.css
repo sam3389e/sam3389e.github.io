@@ -33,7 +33,12 @@
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
+    
 }
+
+#home h1 {
+    font-size: clamp(14px, 5vw, 32px);
+  }
 
 .outreachPic{
     transform: scale(0.75);
