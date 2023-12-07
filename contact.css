@@ -56,22 +56,41 @@ ul {
     font-size: 90pt;
 }
 
-.welcome{
-    background-color:#bed3c7;
-    display: flex;
-    border-radius:15px;
-    width: 70%;
-    margin: auto;
+/* CONTACT ME PAGE */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #679a7c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #276f45;
+}
+  
+/* Add a background color and some padding around the form */
+.contact_container {
+    border-radius: 15px;
+    background-color: #bed3c7;
+    padding:3%;
+    width:75%;
     align-items: center;
+    margin: auto;
     font-family: 'Nunito', sans-serif;
-}
-
-.welcome p{
-    text-align:center;
-    line-height: 175%;
-    padding:1.5%
-}
-
-.welcome img{
-    padding:2%;
 }

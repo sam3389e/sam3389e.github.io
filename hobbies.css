@@ -56,22 +56,32 @@ ul {
     font-size: 90pt;
 }
 
-.welcome{
-    background-color:#bed3c7;
-    display: flex;
-    border-radius:15px;
-    width: 70%;
-    margin: auto;
-    align-items: center;
-    font-family: 'Nunito', sans-serif;
+/* Hobbies section */
+
+.container{
+  display:flex;
+  margin: auto;
+  height: 500px;
+  align-items: center;
+  justify-content:space-between;
 }
 
-.welcome p{
-    text-align:center;
-    line-height: 175%;
-    padding:1.5%
+.item{
+  padding-top:1%;
+  background-color: #bed3c7;
+  font-family: 'Nunito', sans-serif;
+  border-radius:15px;
+  width:30%;
+  height:100%;
+  margin: auto;
+  text-align: center;
 }
 
-.welcome img{
-    padding:2%;
+.item p{
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.item img{
+  border-radius:15px;
 }

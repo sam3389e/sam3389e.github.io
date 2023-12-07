@@ -1,136 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <title>Sam's Website</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- navbar-->
-    <nav class="navbar navbar-expand-md fixed-top navbar-light navbarScroll">
-        <div class="container">
-            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Projects</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </div>
-    </nav>
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container pt-1">
-            
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <img class = "profilePic" src = "images/me.png">
-                <h2 class="hero_title">Hi! I'm Sam!</h2>
-                <p class="hero_desc">I'm a senior studying Computer Science at Penn State University</p>
-            </div>
-            </div>
-        </div>
-    </section>
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <!-- about section-->
-    <section id="about">
-        <div class="container pt-4">
+  <div class = "header">
+    <h1 class="title"><span>Samantha Glenn</span></h1>
+    <h2 class="title">Software Developer</h2>  
+  </div>
 
-            <h1 class="text-center">About Me</h1>
- 
-            <div class="row">
-                <!--<div class="col-lg-4">
-                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
-                </div>-->
-                    <p> I have loved programming from the moment I laid eyes on it. I taught myself how to code in my robotics club during high school and the rest was history. I have since put a lot of effort into encouraging the next generation of women engineers through leading Girl Powered programs and working as a Lead Teaching Assistant for Girls Who Code.
-                        
-                    </p> 
-                    <div class="row">
-                            <img class = "outreachPic" src = "images/gwcZoom.png">
-                    </div>
-                    <div class="row">
-                        <p> I always aspire to learn new things. I think of myself as a forever student. I'm currently studying Korean language and it's a goal of mine to learn as many languages as possible in my lifetime.
-                            I taught myself how to code in my Robotics club in high school and it was the greatest decision of my life. Coding quickly became a passion of mine as I learned more and more about creating autonomous robots. 
-                            I have since learned so many other skills and continue to gain more. I love learning from others and I can't wait to see what else I learn in my future career!
-                        </p>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <!-- portfolio section-->
-    <section id="portfolio">
-        <div class="container mt-3">
-            <h1 class="text-center">Projects</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <!--<img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">-->
-                        <div class="card-body">
-                            <h4 class="card-title">Drawing Application</h4>
-                            <p class="card-text">An application allowing users to create different shapes and lines inside of a canvas.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <!--<img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">-->
-                        <div class="card-body">
-                            <h4 class="card-title">Course Scheduler</h4>
-                            <p class="card-text">An application allowing students to edit semester schedules and allowing admin to edit semesters and courses.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/sag5863/Course-Scheduler/tree/main" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <!--<img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">-->
-                        <div class="card-body">
-                            <h4 class="card-title">HUB Center Line Estimator</h4>
-                            <p class="card-text">An application that uses computer vision to estimate line wait times in a university building.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-    </section>
-
-    <!-- footer section-->
-    <footer id="footer">
-        <div class="container-fluid">
-            <!-- social media icons -->
-            <div class="social-icons mt-4">
-                <h4 class="card-title">Connect with me on LinkedIn!</h4>
-                <a href="https://www.linkedin.com/in/samantha-glenn-184b801a5/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
-
+  <div class="welcome">
+    <img src="imgs/spotify_photo.png" alt="Me in Virginia" width="350" height="350">
+    <p>Welcome to my website! A little about me; I always aspire to learn new things. 
+        I think of myself as a forever student. I'm currently studying Korean language 
+        and it's a goal of mine to learn as many languages as possible in my lifetime. 
+        I taught myself how to code in my Robotics club in high school and it was the greatest 
+        decision of my life. Coding quickly became a passion of mine as I learned more and more 
+        about creating autonomous robots. I have since learned so many other skills and continue 
+        to gain more. I love learning from others and I can't wait to see what else I learn in my future career!</p>
+  </div>
+  
 </body>
 
 </html>
