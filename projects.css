@@ -74,12 +74,39 @@ nav ul {
   width:30%;
   height:100%;
   margin: auto;
+}
+
+.item h2{
+  text-align: center;
+}
+
+.item h1{
   text-align: center;
 }
 
 .item li{
   padding-left:3%;
   padding-right:3%;
+}
+
+.top{
+  padding-bottom: 3%;
+}
+
+.recent{
+  padding-top:1%;
+  display: flex;
+  background-color: #bed3c7;
+  font-family: 'Nunito', sans-serif;
+  border-radius:15px;
+  width:50%;
+  height:100%;
+  margin: auto;
+  align-items: center;
+}
+
+.recent img{
+  padding:2%;
 }
 
 /* Footer section */
